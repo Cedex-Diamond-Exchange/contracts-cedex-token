@@ -1,4 +1,4 @@
-pragma solidity ^0.4.4;
+pragma solidity ^0.4.15;
 
 import "./BurnableToken.sol";
 
@@ -18,10 +18,10 @@ contract Cedex is BurnableToken {
   /**
    * @dev Constructor that gives msg.sender all of existing tokens.
    */
-  function TestToken() {
+  function Cedex() {
   	totalSupply = INITIAL_SUPPLY;
     balances[msg.sender] = INITIAL_SUPPLY;
-    Transfer(0x0, msg.sender, INITIAL_SUPPLY);
+    Transfer(address(0), msg.sender, INITIAL_SUPPLY);
   }
 
 }
