@@ -11,7 +11,7 @@ import "./BurnableToken.sol";
 contract Cedex is BurnableToken {
 
 	string public constant name = "Cedex";
-	string public constant symbol = "CDX";
+	string public constant symbol = "CEDEX";
 	uint8 public constant decimals = 18;
 	uint256 public constant INITIAL_SUPPLY = 100000000 * 10**18;
 
@@ -21,7 +21,7 @@ contract Cedex is BurnableToken {
   function Cedex() {
   	totalSupply = INITIAL_SUPPLY;
     balances[msg.sender] = INITIAL_SUPPLY;
-    Transfer(address(0), msg.sender, INITIAL_SUPPLY);
+    Transfer(0x0, msg.sender, INITIAL_SUPPLY);
   }
 
 }
