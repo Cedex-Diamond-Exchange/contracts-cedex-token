@@ -6,7 +6,7 @@ var CedexMock = artifacts.require('./helpers/CedexMock.sol');
 contract('Cedex', function(accounts) {
   let token;
 
-   const NAME = "Cedex";
+   const NAME = "CEDEX";
    const SYMBOL = "CEDEX";
    const DECIMALS = 18;
    const TOTAL_SUPPLY = 100;
