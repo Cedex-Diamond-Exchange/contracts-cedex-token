@@ -29,12 +29,12 @@ contract Cedex is BurnableToken, Ownable {
   }
 
   function transfer(address _to, uint _value) returns (bool) {
-    require(now > transferAllowedDates[msg.sender]);
+    require(now > defaultTransferAllowedDate && now > transferAllowedDates[msg.sender]);
     return super.transfer(_to, _value);
   }
   
   function transferFrom(address _from, address _to, uint256 _value) returns (bool) {
-      require(now > transferAllowedDates[_from]);
+      require(now > defaultTransferAllowedDate && now > transferAllowedDates[_from]);
       return super.transferFrom(_from, _to, _value);
   }
 
