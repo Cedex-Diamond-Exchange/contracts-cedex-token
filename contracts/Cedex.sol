@@ -1,6 +1,7 @@
 pragma solidity ^0.4.15;
 
 import "./BurnableToken.sol";
+import "./Ownable.sol";
 
 /**
  * @title Cedex
