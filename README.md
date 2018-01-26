@@ -29,5 +29,5 @@ The CEDEX coin will be the only means of payment used on the CEDEX exchange. The
 7. At the end of the token sale, any unsold tokens will be burned 
 8. Tokens are distributed to users up to three weeks after the sale ends. Once they are distributed, they are transferable. 
 9. Value of 1 CEDEX coin will not exceed $0.8. The hard cap of Token-Sale will be published in ETH, prior to the Token-Sale on March 10,2018 08:00 GMT, CEDEX will be locking and publishing the final ETH amount to be sold in the Token-sale
-10. It should be possible to have a set a vesting period to tokens while sending them to an ICO contributor 
+10. It should be possible to set a vesting period to tokens while sending them to an ICO contributor 
 11. 18 month vesting period for the Founders, team and advisory board (10% vested after end of sale, 30% after 6 months, 30% after 12 months and 30% after 18 months)
