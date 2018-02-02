@@ -52,7 +52,7 @@ truffle test
 ```
 
 ### Composition of the repo
-The repo is composed as a Truffle project. The test suite can be found in `test` folder. The contract is in `contracts/TestToken.sol`. The deployment scripts are in the `migrations` folder.
+The repo is composed as a Truffle project. The test suite can be found in `test` folder. The contract is in `contracts/Cedex.sol`. The deployment scripts are in the `migrations` folder.
 
 ### Built With
 
