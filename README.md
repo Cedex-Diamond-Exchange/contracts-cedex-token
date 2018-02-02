@@ -38,7 +38,7 @@ This was developed using Node 8.4.0, Truffle 3.4.11.
 ```
 npm install -g truffle
 npm install
-git clone https://github.com/BorisIdzinskyTF/ICO.git
+git clone https://github.com/Cedex-Diamond-Exchange/contracts-cedex-token.git
 cd ICO
 npm install zeppelin-solidity
 truffle compile
