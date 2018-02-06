@@ -60,3 +60,6 @@ The repo is composed as a Truffle project. The test suite can be found in `test`
 * [OpenZeppelin](https://openzeppelin.org/) -  Open framework of reusable and secure smart contracts in the Solidity language.
 * [Style Guide](http://solidity.readthedocs.io/en/develop/style-guide.html) - Coding conventions for writing solidity code.
 
+## Smart Contract Audit
+For more information, and review of the smart contract audit [report](https://github.com/Cedex-Diamond-Exchange/contracts-cedex-token/blob/master/Cedex_Auditing.pdf)
+
